@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cMenuNegru"
+        android:title="@string/culori_negru"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuGriI"
+        android:title="@string/culori_gri_i"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuGri"
+        android:title="@string/culori_gri"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuGriD"
+        android:title="@string/culori_gri_d"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuAlb"
+        android:title="@string/culori_alb"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuRosu"
+        android:title="@string/culori_rosu"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuGalben"
+        android:title="@string/culori_galben"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuVerde"
+        android:title="@string/culori_verde"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuTurcoaz"
+        android:title="@string/culori_turcoaz"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuAlbastru"
+        android:title="@string/culori_albastru"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cMenuPurpuriuI"
+        android:title="@string/culori_purpuriu_i"
+        app:showAsAction="never" />
+
+</menu>

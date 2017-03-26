@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\76f8be8c9d30340eaa98242f69028084436107d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8295a946c775e31ec9f605605f4caf98b76ed511\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\6fb00210ee364f27c3099dfd0da7045a8e774fe1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9bb92e2ecd3ad83a43062a76ea6181c25cd6efa9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\36a0a3124be86c301b0ff88f7e32919fccbb3ec6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_18cff166fbfcec544b6cd1c874bc986bf9acddc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\1ae911ea4bfbe8f9872328ac9da27d6e4f1dc013\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_edf4b69d65764b418fb8f2c8ea32d7ab85b140d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\b07dd346b150f889103f83f94745c2ec3b619bf7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9e5cc0723793fe0db507a911b4846fe724a39ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\24e0271e37057992090b483f5caf5aac81d9ab99\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_83771558c29a50c2cfcbd12d7edf1ec44026f3c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\96590e6d0956d91a592c2b64ad4631beeb0eda73\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4761aa014ad5c2547c65d16a035f0912e914e3bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cd8b4ba8c882a2f19a89aa3a79e6cdc7278ba01d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc1ef99017f80c4a5466aafbf936992d1d21e984">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0b4825295512f96842587b672b7b7f0a15a55200\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\b9b6805b0e344cfe3c5ac744b3f7d5eba7416ce1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af0a98df7c465cae0d1838ceb064fccf0bff2edc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\9ff04e564c536d876b2cf82debb2d83f1c9bde9c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7e835dd70de8d4acece4aed8cf7fdf7d1c19002d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_c3fc95b14685a6d45ba23a0bb792a04a570729d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\d6abfc0279f5ef4c84a755368a86315743a2ccad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4791d077cf898eadf5ae75294ef23e590004c748\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\f7dfc686fedc4a64a4cee708609c92457f134d20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e74dd59474d1d939a697ddd99717f9361c23fa4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\ea85e1fa05c8fb6d52a4537e3dae48970f0bafc8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa4be56be579288681111e974d9f8454773ecffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anca 1\.android\build-cache\020447835872153057dd80efa3d2eeace65c5411\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b4bf22fb2fa17aedf406ca4994f8c13d625f1e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Teme\Android\ColorCodeCreator\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_7746369fa27cceb525736b4267461e18a05a6d43\classes.dex" />
+    </item>
+
+</items>

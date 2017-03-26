@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/slider_button"
+        app:showAsAction="ifRoom"
+        android:onClick="toSliderActivity"/>
+    <item
+        android:id="@+id/stergere"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/menu_stergere"
+        app:showAsAction="ifRoom"
+        android:onClick="stergere"/>
+    <item
+        android:id="@+id/culori"
+        android:title="@string/menu_culori"
+        app:showAsAction="ifRoom"
+        android:onClick="showPopup"/>
+
+</menu>

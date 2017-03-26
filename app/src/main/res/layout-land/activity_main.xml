@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.mihai.colorcodecreator.MainActivity">
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="0dp"
+            android:layout_height="34dp"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintRight_toLeftOf="@+id/verticala"
+            android:layout_marginEnd="0dp"
+            app:layout_constraintTop_toTopOf="@+id/cod"
+            android:layout_marginTop="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cod"
+            app:layout_constraintVertical_bias="0.5"
+            android:layout_marginStart="16dp"
+            app:layout_constraintHorizontal_bias="1.0" />
+
+        <SeekBar
+            android:id="@+id/rBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:max="255"
+            app:layout_constraintBottom_toTopOf="@+id/gBar"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintLeft_toLeftOf="@+id/verticala"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aBar" />
+
+        <SeekBar
+            android:id="@+id/gBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:max="255"
+            app:layout_constraintBottom_toTopOf="@+id/bBar"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintLeft_toLeftOf="@+id/verticala"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rBar" />
+
+        <SeekBar
+            android:id="@+id/bBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:max="255"
+            app:layout_constraintBottom_toTopOf="@+id/orizontala91"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintLeft_toLeftOf="@+id/verticala"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gBar" />
+
+        <TextView
+            android:id="@+id/rText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/r_text"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/rBar"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/verticala"
+            app:layout_constraintTop_toTopOf="@+id/rBar"
+            app:layout_constraintVertical_bias="0.466" />
+
+        <TextView
+            android:id="@+id/gText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/g_text"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/gBar"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/verticala"
+            app:layout_constraintTop_toTopOf="@+id/gBar"
+            app:layout_constraintVertical_bias="0.466" />
+
+        <TextView
+            android:id="@+id/bText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/b_text"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/bBar"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/verticala"
+            app:layout_constraintTop_toTopOf="@+id/bBar"
+            app:layout_constraintVertical_bias="0.466" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/verticala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.23"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/cod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/slidingActionBar"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/orizontala39"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="@+id/verticala"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintRight_toLeftOf="@+id/fab"
+            android:layout_marginRight="16dp"
+            app:layout_constraintHorizontal_bias="0.5" />
+
+        <TextView
+            android:id="@+id/aText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/a_text"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/aBar"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/verticala"
+            app:layout_constraintTop_toTopOf="@+id/aBar"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <SeekBar
+            android:id="@+id/aBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:max="255"
+            app:layout_constraintBottom_toTopOf="@+id/rBar"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintLeft_toLeftOf="@+id/verticala"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/orizontala39"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/orizontala39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.39" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/slidingActionBar"
+            android:layout_width="0dp"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_marginTop="0dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            app:elevation="4dp"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toTopOf="@+id/orizontala39"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slidingActionBar"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/orizontala91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.91" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.widget.CoordinatorLayout>

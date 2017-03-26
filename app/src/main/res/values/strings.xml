@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Color Code Creator</string>
+    <string name="r_text">Rosu</string>
+    <string name="g_text">Verde</string>
+    <string name="b_text">Albastru</string>
+    <string name="a_text">Alfa</string>
+    <string name="menu_culori">Culori</string>
+    <string name="culori_negru">Negru</string>
+    <string name="culori_gri">Gri</string>
+    <string name="culori_gri_i">Gri inchis</string>
+    <string name="culori_gri_d">Gri deschis</string>
+    <string name="culori_alb">Alb</string>
+    <string name="culori_rosu">Rosu</string>
+    <string name="culori_galben">Galben</string>
+    <string name="culori_verde">Verde</string>
+    <string name="culori_turcoaz">Turcoaz</string>
+    <string name="culori_albastru">Albastru</string>
+    <string name="culori_purpuriu_i">Purpuriu inchis</string>
+    <string name="fab_nume_text">Salvati culoarea?</string>
+    <string name="fab_input_text">Dati numele culorii</string>
+    <string name="fab_cod_text">Cod:</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="menu_stergere">Stergere</string>
+    <string name="undo">Undo</string>
+    <string name="test">Test</string>
+    <string name="slider_button">Slider</string>
+</resources>
